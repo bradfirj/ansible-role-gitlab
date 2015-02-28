@@ -33,7 +33,7 @@ gitlab_rails['gitlab_default_projects_features_issues'] = {{ gitlab_rails.defaul
 gitlab_rails['gitlab_default_projects_features_merge_requests'] = {{ gitlab_rails.default_projects_features.merge_requests }}
 gitlab_rails['gitlab_default_projects_features_wiki'] = {{ gitlab_rails.default_projects_features.wiki }}
 gitlab_rails['gitlab_default_projects_features_snippets'] = {{ gitlab_rails.default_projects_features.snippets }}
-gitlab_rails['gitlab_default_projects_features_visibility_level'] = '{{ gitlab_rails.default_projects_features.visibility_level }}''
+gitlab_rails['gitlab_default_projects_features_visibility_level'] = '{{ gitlab_rails.default_projects_features.visibility_level }}'
 gitlab_rails['gitlab_repository_downloads_path'] = '{{ gitlab_rails.repository_downloads_path }}'
 {% if gitlab_rails.issues_tracker.redmine == "true" %}
 gitlab_rails['issues_tracker_redmine'] = {{ gitlab_rails.issues_tracker.redmine }}
